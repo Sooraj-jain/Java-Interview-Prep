@@ -28,7 +28,7 @@ When get(key) is called,
 1) hash(key) generated
 2) index for hashcode is calculated 
 3) Goes to that index, 
-A) First matches with hash, if same matches with key. When both are same, get value,
+A) First matches with hash, if hashcode and key matches, get value,
 IF not, go to next node and repeate the same until the match is found
 
 ![HashMap](Data_Structures/HashTable/HashTable3.png)
