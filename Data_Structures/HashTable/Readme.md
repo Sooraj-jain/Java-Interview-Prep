@@ -8,7 +8,7 @@ Each Node contains 4 things.
 
 By defaults HashTable produces array or size 16. That is index from 0 to 15.
 
-![HashMap](Data_Structures/HashTable/HashTable0.png)
+![HashMap](HashTable0.png)
 
 Once put operation is called, 
 1) hash(key) is performed 
@@ -20,9 +20,9 @@ Or simply gets attached as the next node in the linked list
 5) If either hashcode generated is same OR the index from different hashcode resulted in a same index, 
 In these 2 cases, multiple keys can have same index in the hashmap
 
-![HashMap](Data_Structures/HashTable/HashTable1.png)
+![HashMap](HashTable1.png)
 
-![HashMap](Data_Structures/HashTable/HashTable2.png)
+![HashMap](HashTable2.png)
 
 When get(key) is called, 
 1) hash(key) generated
@@ -31,7 +31,7 @@ When get(key) is called,
 A) First matches with hash, if hashcode and key matches, get value,
 IF not, go to next node and repeate the same until the match is found
 
-![HashMap](Data_Structures/HashTable/HashTable3.png)
+![HashMap](HashTable3.png)
 
 Once the array is 75% full, the size is doubled, and rehashing is performed, resulting in moving the values to new indexes
 
