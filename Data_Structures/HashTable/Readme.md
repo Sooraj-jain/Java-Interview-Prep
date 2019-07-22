@@ -17,7 +17,7 @@ Once put operation is called,
 This node is either a new node on linked list if there were no other nodes present earlier
 Or simply gets attached as the next node in the linked list
 4) HashMap in java supports null key -> which always has hash of 0 -> index of 0
-5) If either hashcode generated OR the index from different hashcode resulted in a same index, 
+5) If either hashcode generated is same OR the index from different hashcode resulted in a same index, 
 In these 2 cases, multiple keys can have same index in the hashmap
 
 ![HashMap](Data_Structures/HashTable/HashTable1.png)
